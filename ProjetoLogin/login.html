@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+   <div class="container">
+        <div class="container__formulario">
+            <form>
+                <section>
+                    <h1 class="texto titulo">Bem vindo de volta!</h1>
+                    <span class="texto subtitulo">Insira seus dados para acessar sua conta.</span>
+                </section>
+                <section class="container__login">
+                    <label for="user" class="container__dados">Email/Usuário</label>
+                    <input id="user" type="email-name" pattern="[a-z0-9]" placeholder="Email/Usuário" required>
+                    <label for="password" class="container__dados">Senha</label>   
+                    <input id="password" type="password" pattern="[a-z0-9]" placeholder="Senha" required>
+                    <button type="submit" class="submit">Login</button>   
+                    <div class="links__auxiliares">          
+                    <a href="#">
+                        <span class="auxiliar recuperar__senha">Esqueceu sua senha?</span>
+                    </a>
+                    <span class="auxiliar cadastro">
+                        ou <a href="">Cadastre-se.</a>
+                    </span>
+                </div>
+                </section>
+                        <span class="texto__contas">Entre com:</span>
+                <section class="conta__vinculada">
+                    <a href="" class="link__google"><img src="./img/google.svg">
+                    </a>
+                    <a href="" class="link__facebook">
+                        <img src="./img/facebook.svg">
+                    </a>
+                </section>
+            </form>
+        </div>
+        <div class="container__imagem">
+            <img src="./img/paduret.jpg">
+        </div>
+   </div>
+</body>
+</html>
